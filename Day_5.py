@@ -21,8 +21,6 @@ def part2():
             if not things[i][j * 2 + 1] == 0:
                 things[i + 1] += mapRange(maps[i], things[i][j * 2], things[i][j * 2 + 1])
 
-    print(things)
-
     things[7] = [things[7][i] if i % 2 == 0 else 10000000000000 for i in range(len(things[7]))]
     things[7] = [i if i != 0 else 10000000000000 for i in things[7]]
     print("Part 2:", min(things[7]))
