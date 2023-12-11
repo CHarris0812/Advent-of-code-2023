@@ -13,8 +13,6 @@ def part1():
     emptyRowsPassed = 0
     emptyColsPassed = 0
     galaxys = []
-    row = 0
-    col = 0
 
     for i in range(len(inputVals)):
         if emptyRows[i] == 1: emptyRowsPassed += 1
@@ -47,8 +45,6 @@ def part2():
     emptyRowsPassed = 0
     emptyColsPassed = 0
     galaxys = []
-    row = 0
-    col = 0
 
     for i in range(len(inputVals)):
         if emptyRows[i] == 1: emptyRowsPassed += 1000000 - 1
