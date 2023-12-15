@@ -1,1 +1,1 @@
-My answers for the 2023 Advent of Code challenge. Probably in Python. Also I'm going for speed in these challenges so if you look at the actual code it will be an awful uncommented mess full of duplicated code and poor programming practice. 
+My answers for the 2023 Advent of Code challenge. Probably in Python. If you value your sanity don't try and understand what I wrote. I barely do.
